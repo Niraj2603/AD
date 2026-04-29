@@ -1,0 +1,7 @@
+dependencies {
+    // Google Maps dependency (auto-added with Maps Activity template)
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+
+    // ... other dependencies
+}
+//📄 build.gradle (Module: app) — Verify this dependency exists
