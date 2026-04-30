@@ -36,3 +36,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+//Go to java/com.example.intentdemo/MainActivity.java → Clear → Paste this:
