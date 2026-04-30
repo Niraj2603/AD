@@ -1,0 +1,37 @@
+Step-by-Step Execution in Exam
+✅ STEP 1 — Create New Project
+
+Open Android Studio → New Project
+Select Empty Activity
+Name: WebViewDemo
+Package: com.example.webviewdemo
+Language: Java
+Min SDK: API 21
+Click Finish → Wait for Gradle
+
+
+✅ STEP 2 — Add INTERNET Permission in AndroidManifest.xml
+
+Go to: app → manifests → AndroidManifest.xml
+Add before <application> tag:
+
+xml<uses-permission android:name="android.permission.INTERNET"/>
+⚠️ Without this, app will show blank white screen — most common mistake!
+
+✅ STEP 3 — Edit activity_main.xml
+
+Go to: res → layout → activity_main.xml
+Click Code tab → Replace everything with XML below
+
+
+✅ STEP 4 — Edit MainActivity.java
+
+Go to: java → com.example.webviewdemo → MainActivity
+Replace everything with Java code below
+
+
+✅ STEP 5 — Run the App
+
+Click Run ▶️ → Select emulator → OK
+Make sure emulator has internet access
+Type URL → Click Go → Website loads!
