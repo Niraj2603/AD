@@ -1,0 +1,61 @@
+Step-by-Step Execution in Exam
+✅ STEP 1 — Create New Project
+
+Open Android Studio → New Project
+Select Empty Activity
+Name: FragmentLifecycle
+Package: com.example.fragmentlifecycle
+Language: Java
+Min SDK: API 21
+Click Finish → Wait for Gradle
+
+
+✅ STEP 2 — Create fragment_my.xml
+
+Go to: res → layout
+Right-click layout → New → Layout Resource File
+Name: fragment_my
+Root element: type LinearLayout → OK
+Paste fragment XML code below
+
+
+✅ STEP 3 — Create MyFragment.java
+
+Right-click java → com.example.fragmentlifecycle
+New → Java Class
+Name: MyFragment
+Paste MyFragment Java code below
+
+
+✅ STEP 4 — Edit activity_main.xml
+
+Go to: res → layout → activity_main.xml
+Replace everything with main XML code below
+
+
+✅ STEP 5 — Edit MainActivity.java
+
+Open MainActivity.java → Replace everything with code below
+
+
+✅ STEP 6 — Run the App
+
+Click Run ▶️ → Select emulator → OK
+App opens with fragment visible
+
+
+✅ STEP 7 — Show Lifecycle in Logcat (MOST IMPORTANT FOR VIVA!)
+
+At bottom of Android Studio → Click "Logcat" tab
+In search bar type: FragmentDemo
+You will see all lifecycle methods printed in order:
+
+onAttach → onCreate → onCreateView → onActivityCreated → onStart → onResume
+
+Press Home button on emulator → Logcat shows:
+
+onPause → onStop
+
+Return to app → Shows:
+
+onStart → onResume
