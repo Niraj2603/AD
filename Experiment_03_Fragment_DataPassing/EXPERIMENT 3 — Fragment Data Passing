@@ -1,0 +1,29 @@
+EXPERIMENT 3 — Fragment Data Passing
+📁 Files needed: 5 files + 2 new layout files
+
+STEP 1: Create New Project
+Name: FragmentDemo
+Package: com.example.fragmentdemo
+
+STEP 2: Paste activity_main.xml
+
+STEP 3: Create fragment_first.xml
+Right-click res/layout → New → Layout Resource File
+Name: fragment_first → OK
+Clear all → Paste:
+
+STEP 4: Create fragment_second.xml
+Same way → New Layout → Name: fragment_second → Paste:
+
+STEP 5: Create FirstFragment.java
+Right-click java/com.example.fragmentdemo
+New → Java Class
+Name: FirstFragment → Enter
+Clear all → Paste:
+
+STEP 6: Create SecondFragment.java
+Same way → New Java Class → SecondFragment → Paste:
+
+STEP 7: Paste MainActivity.java (already complete from repo ✅)
+
+STEP 8: Run ▶️ → Type message → Click Send → See message in Fragment 2 ✅
