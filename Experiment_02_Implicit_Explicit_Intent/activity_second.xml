@@ -20,4 +20,13 @@
         android:layout_height="wrap_content"
         android:text="Go Back"/>
 </LinearLayout>
+//STEP 4: Create SecondActivity
+
+//Right-click java/com.example.intentdemo
+//Click New → Activity → Empty Activity
+//Name: SecondActivity → Click Finish
+
+
+//STEP 5: Paste activity_second.xml
+//Go to res/layout/activity_second.xml → Clear → Paste:
 //Go to res/layout/activity_second.xml → Clear → Paste:
