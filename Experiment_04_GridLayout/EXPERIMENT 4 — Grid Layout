@@ -1,5 +1,29 @@
- EXPERIMENT 4 — Grid Layout
-STEP 1: Create project → Name: GridLayoutDemo
-STEP 2: Paste activity_main.xml:
-STEP 3: Paste MainActivity.java — use code from repo ✅
-STEP 4: Run ▶️ → Grid of courses shows ✅
+Step-by-Step Execution in Exam
+✅ STEP 1 — Create New Project
+
+Open Android Studio → New Project
+Select Empty Activity
+Name: GridLayoutDemo
+Package: com.example.gridlayoutdemo
+Language: Java
+Min SDK: API 21
+Click Finish → Wait for Gradle to build
+
+
+✅ STEP 2 — Edit activity_main.xml
+
+Go to: app → res → layout → activity_main.xml
+Click Code tab (top right corner)
+Delete everything and paste XML code given below
+
+
+✅ STEP 3 — Edit MainActivity.java
+
+Go to: app → java → com.example.gridlayoutdemo → MainActivity
+Delete everything and paste Java code given below
+
+
+✅ STEP 4 — Run the App
+
+Click Run ▶️ → Select emulator → Click OK
+Wait for app to load on emulator
