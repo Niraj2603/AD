@@ -1,0 +1,54 @@
+Step-by-Step Execution in Exam
+✅ STEP 1 — Create New Project (SPECIAL TEMPLATE!)
+
+Open Android Studio → New Project
+⚠️ Select "Google Maps Activity" (NOT Empty Activity!)
+Name: GoogleMapDemo
+Package: com.example.googlemapdemo
+Language: Java
+Min SDK: API 21
+Click Finish → Wait for Gradle
+
+
+✅ STEP 2 — Get Google Maps API Key
+
+⚠️ In exam — API key may already be provided in the code. If not, follow these steps:
+
+
+After project creates, look in left panel:
+Go to: app → res → values → google_maps_api.xml
+You'll see a long URL — copy it
+Open browser → Paste URL → Press Enter
+Google Console opens → Click "Create Project" → "Continue"
+Click "Create API Key"
+Copy the generated API key (starts with AIza...)
+Come back to Android Studio
+In google_maps_api.xml, replace YOUR_KEY_HERE with your API key
+
+
+✅ STEP 3 — Check google_maps_api.xml
+xml<!-- This file is auto-generated -->
+<resources>
+    <string name="google_maps_key" 
+        templateMergeStrategy="preserve"
+        translatable="false">YOUR_API_KEY_HERE</string>
+</resources>
+Replace YOUR_API_KEY_HERE with the copied key.
+✅ STEP 4 — Edit MapsActivity.java
+
+Go to: java → com.example.googlemapdemo → MapsActivity
+Replace with code given below
+
+
+✅ STEP 5 — Check AndroidManifest.xml
+
+Permissions and API key meta-data are auto-added when using Maps Activity template
+Just verify they exist (shown in code below)
+
+
+✅ STEP 6 — Run the App
+
+Click Run ▶️ → Select emulator → OK
+Map loads with marker on SKNCOE, Pune
+Zoom in/out, switch map type to show examiner
+
