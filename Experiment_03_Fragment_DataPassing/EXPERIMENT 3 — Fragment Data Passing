@@ -1,29 +1,59 @@
-EXPERIMENT 3 — Fragment Data Passing
-📁 Files needed: 5 files + 2 new layout files
+Step-by-Step Execution in Exam
+✅ STEP 1 — Create New Project
 
-STEP 1: Create New Project
+Open Android Studio → New Project
+Select Empty Activity
 Name: FragmentDemo
 Package: com.example.fragmentdemo
+Language: Java
+Min SDK: API 21
+Click Finish → Wait for Gradle
 
-STEP 2: Paste activity_main.xml
 
-STEP 3: Create fragment_first.xml
-Right-click res/layout → New → Layout Resource File
-Name: fragment_first → OK
-Clear all → Paste:
+✅ STEP 2 — Create fragment_first.xml
 
-STEP 4: Create fragment_second.xml
-Same way → New Layout → Name: fragment_second → Paste:
+Go to: res → layout
+Right-click layout → New → Layout Resource File
+Name: fragment_first → Click OK
+Paste the first fragment XML code below
 
-STEP 5: Create FirstFragment.java
-Right-click java/com.example.fragmentdemo
+
+✅ STEP 3 — Create fragment_second.xml
+
+Right-click layout again → New → Layout Resource File
+Name: fragment_second → Click OK
+Paste the second fragment XML code below
+
+
+✅ STEP 4 — Edit activity_main.xml
+
+Go to: res → layout → activity_main.xml
+Replace everything with the main activity XML below
+It has a FrameLayout — this is the container where fragments load
+
+
+✅ STEP 5 — Create FirstFragment.java
+
+Right-click java → com.example.fragmentdemo
 New → Java Class
-Name: FirstFragment → Enter
-Clear all → Paste:
+Name: FirstFragment
+Paste FirstFragment code below
 
-STEP 6: Create SecondFragment.java
-Same way → New Java Class → SecondFragment → Paste:
 
-STEP 7: Paste MainActivity.java (already complete from repo ✅)
+✅ STEP 6 — Create SecondFragment.java
 
-STEP 8: Run ▶️ → Type message → Click Send → See message in Fragment 2 ✅
+Right-click same package → New → Java Class
+Name: SecondFragment
+Paste SecondFragment code below
+
+
+✅ STEP 7 — Edit MainActivity.java
+
+Open MainActivity.java
+Replace everything with MainActivity code below
+
+
+✅ STEP 8 — Run the App
+
+Click Run ▶️ → Select emulator → OK
+What to do: Type text in Fragment 1 → Click button → Fragment 2 shows the text
