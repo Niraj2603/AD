@@ -1,0 +1,39 @@
+Step-by-Step Execution in Exam
+✅ STEP 1 — Create New Project
+
+Open Android Studio → New Project
+Select Empty Activity
+Name: MediaPlayerDemo
+Package: com.example.mediaplayerdemo
+Language: Java
+Min SDK: API 21
+Click Finish → Wait for Gradle
+
+
+✅ STEP 2 — Create raw Folder and Add MP3 ⭐ MOST CRITICAL STEP
+
+In left panel: Right-click res folder
+New → Android Resource Directory
+Resource type: select raw from dropdown
+Click OK
+Now Right-click the new raw folder → Show in Explorer
+Copy-paste any .mp3 file into that folder
+Rename it to: song.mp3 (must be lowercase!)
+Come back to Android Studio — it auto-detects
+
+
+✅ STEP 3 — Edit activity_main.xml
+
+Go to: res → layout → activity_main.xml
+Click Code tab → Replace everything with XML below
+
+
+✅ STEP 4 — Edit MainActivity.java
+
+Open MainActivity.java → Replace everything with Java code below
+
+
+✅ STEP 5 — Run the App
+
+Click Run ▶️ → Select emulator → OK
+App opens → Click Play → Music starts!
