@@ -1,23 +1,54 @@
-EXPERIMENT 5 — RecyclerView
-⚠️ EXTRA STEP: Add Dependency First!
-STEP 1: Create project → Name: RecyclerViewDemo
+Step-by-Step Execution in Exam
+✅ STEP 1 — Create New Project
 
-STEP 2: Add RecyclerView Dependency
-In left panel → Open Gradle Scripts → Open build.gradle (Module: app)
-Find dependencies { section
-Add this line inside it:
+Open Android Studio → New Project
+Select Empty Activity
+Name: RecyclerViewDemo
+Package: com.example.recyclerviewdemo
+Language: Java
+Min SDK: API 21
+Click Finish → Wait for Gradle
+
+
+✅ STEP 2 — Add RecyclerView Dependency in build.gradle
+
+In left panel: Gradle Scripts → build.gradle (Module: app)
+Inside dependencies { } block, add:
+
 gradleimplementation 'androidx.recyclerview:recyclerview:1.3.0'
-Click "Sync Now" yellow bar at top
-Wait for sync to finish
 
-STEP 3: Paste activity_main.xml
+Click "Sync Now" (yellow bar at top)
+⚠️ Wait for sync to complete before next step
 
-STEP 4: Create item_view.xml
-Right-click res/layout → New Layout → Name item_view → Paste:
 
-STEP 5: Create MyAdapter.java
-New Java Class → MyAdapter → Paste code from repo ✅
+✅ STEP 3 — Edit activity_main.xml
 
-STEP 6: Paste MainActivity.java from repo ✅
+Go to: res → layout → activity_main.xml
+Click Code tab → Replace everything with XML below
 
-STEP 7: Run ▶️ → Scrollable student list ✅
+
+✅ STEP 4 — Create item_view.xml (Layout for Each List Item)
+
+Right-click res/layout → New → Layout Resource File
+Name: item_view
+Root element: LinearLayout
+Click OK → Paste item XML code below
+
+
+✅ STEP 5 — Create MyAdapter.java
+
+Right-click java → com.example.recyclerviewdemo
+New → Java Class
+Name: MyAdapter
+Paste MyAdapter code below
+
+
+✅ STEP 6 — Edit MainActivity.java
+
+Open MainActivity.java → Replace everything with code below
+
+
+✅ STEP 7 — Run the App
+
+Click Run ▶️ → Select emulator → OK
+Scrollable list of students appears
