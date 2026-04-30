@@ -27,3 +27,7 @@
         android:layout_height="wrap_content"
         android:text="Send to Fragment 2"/>
 </LinearLayout>
+//STEP 3: Create fragment_first.xml
+//Right-click res/layout → New → Layout Resource File
+//Name: fragment_first → OK
+//Clear all → Paste:
