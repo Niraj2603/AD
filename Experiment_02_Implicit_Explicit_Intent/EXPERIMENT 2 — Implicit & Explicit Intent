@@ -1,0 +1,32 @@
+EXPERIMENT 2 — Implicit & Explicit Intent
+📁 Files needed: 5 files
+
+STEP 1: Create New Project
+Name: IntentDemo
+Package: com.example.intentdemo
+Language: Java
+
+STEP 2: Paste activity_main.xml
+Go to res/layout/activity_main.xml → Clear → Paste this:
+
+STEP 3: Paste MainActivity.java
+Go to java/com.example.intentdemo/MainActivity.java → Clear → Paste this:
+
+STEP 4: Create SecondActivity
+Right-click java/com.example.intentdemo
+Click New → Activity → Empty Activity
+Name: SecondActivity → Click Finish
+
+STEP 5: Paste activity_second.xml
+Go to res/layout/activity_second.xml → Clear → Paste:
+
+STEP 6: Paste SecondActivity.java
+Go to SecondActivity.java → Clear → Paste:
+
+STEP 7: Add Internet Permission in AndroidManifest.xml
+Open manifests/AndroidManifest.xml → Find <manifest tag → Add this line inside <manifest> but before <application>:
+xml<uses-permission android:name="android.permission.INTERNET"/>
+
+STEP 8: Run ▶️
+Click Open Website → Google opens ✅
+Click Go to Second Screen → Second screen opens ✅
