@@ -1,0 +1,45 @@
+Step-by-Step Execution in Exam
+✅ STEP 1 — Create New Project
+
+Open Android Studio → New Project
+Select Empty Activity
+Name: ImageSliderDemo
+Package: com.example.imagesliderdemo
+Language: Java
+Min SDK: API 21
+Click Finish → Wait for Gradle
+
+
+✅ STEP 2 — Add Images to Drawable Folder ⭐ CRITICAL STEP
+
+In left panel: app → res → drawable
+Right-click drawable → Show in Explorer / Reveal in Finder
+Copy-paste 4–5 image files into that folder
+Name them: image1.jpg, image2.jpg, image3.jpg, image4.jpg, image5.jpg
+Come back to Android Studio → It will auto-detect them
+⚠️ Image names must be lowercase, no spaces, no special characters!
+
+
+✅ STEP 3 — Edit activity_main.xml
+
+Go to: res → layout → activity_main.xml
+Click Code tab → Replace everything with XML below
+
+
+✅ STEP 4 — Create ImageAdapter.java
+
+Right-click java → com.example.imagesliderdemo
+New → Java Class
+Name: ImageAdapter
+Paste ImageAdapter code below
+
+
+✅ STEP 5 — Edit MainActivity.java
+
+Open MainActivity.java → Replace everything with code below
+
+
+✅ STEP 6 — Run the App
+
+Click Run ▶️ → Select emulator → OK
+Swipe left/right on images to slide!
