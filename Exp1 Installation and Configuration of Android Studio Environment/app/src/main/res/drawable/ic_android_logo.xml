@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android Robot Logo SVG as vector drawable -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Head -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M54,18 C42,18 33,27 33,39 L75,39 C75,27 66,18 54,18 Z" />
+    <!-- Left antenna -->
+    <path
+        android:fillColor="#00C853"
+        android:strokeColor="#00C853"
+        android:strokeWidth="3"
+        android:pathData="M40,18 L33,10" />
+    <!-- Right antenna -->
+    <path
+        android:fillColor="#00C853"
+        android:strokeColor="#00C853"
+        android:strokeWidth="3"
+        android:pathData="M68,18 L75,10" />
+    <!-- Left eye -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M41,34 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    <!-- Right eye -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,34 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    <!-- Body -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M29,41 L79,41 Q83,41 83,45 L83,71 Q83,75 79,75 L29,75 Q25,75 25,71 L25,45 Q25,41 29,41 Z" />
+    <!-- Left arm -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M18,41 L18,41 Q23,41 23,46 L23,60 Q23,65 18,65 Q13,65 13,60 L13,46 Q13,41 18,41 Z" />
+    <!-- Right arm -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M90,41 L90,41 Q95,41 95,46 L95,60 Q95,65 90,65 Q85,65 85,60 L85,46 Q85,41 90,41 Z" />
+    <!-- Left leg -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M38,77 L42,77 Q47,77 47,82 L47,93 Q47,98 42,98 L38,98 Q33,98 33,93 L33,82 Q33,77 38,77 Z" />
+    <!-- Right leg -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M66,77 L70,77 Q75,77 75,82 L75,93 Q75,98 70,98 L66,98 Q61,98 61,93 L61,82 Q61,77 66,77 Z" />
+</vector>

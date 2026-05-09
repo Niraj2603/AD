@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A1A2E"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intent Demo"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#00C853"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experiment 2"
+        android:textSize="14sp"
+        android:textColor="#90A4AE"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/etUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter URL (e.g. google.com)"
+        android:textColorHint="#607D8B"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00C853"
+        android:inputType="textUri"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Open in Browser"
+        android:textSize="16sp"
+        android:backgroundTint="#00C853"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Open Dialer"
+        android:textSize="16sp"
+        android:backgroundTint="#1565C0"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Send Email"
+        android:textSize="16sp"
+        android:backgroundTint="#E53935"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Open Maps"
+        android:textSize="16sp"
+        android:backgroundTint="#F57C00"/>
+
+</LinearLayout>

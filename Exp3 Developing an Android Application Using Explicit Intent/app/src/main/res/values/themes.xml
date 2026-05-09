@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><resources><style name="Theme.ExplicitIntentApp" parent="Theme.MaterialComponents.DayNight.NoActionBar"><item name="colorPrimary">#00E5FF</item><item name="colorPrimaryVariant">#1A1A2E</item><item name="colorOnPrimary">#000000</item><item name="android:windowBackground">#1A1A2E</item></style></resources>
